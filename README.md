@@ -58,10 +58,10 @@ Only the current phase is "in sprint." Everything else goes to the idea parking 
 
 ### Branches & Pull Requests
 
-- `main` holds only **validated progress**: finished phase milestones, approved rig changes, reviewed recordings.
-- Each phase gets a branch: `phase-1-stringscapes`, `phase-3-midi-layer`, etc.
+- `main` holds only **validated progress**: reviewed increments, approved rig changes, committed takes.
+- Each **increment** gets a short-lived branch (`agm-transcription`, `agm-loop-layout`, …) — not one branch per phase. A phase spans several such branches and is tracked as a **GitHub milestone**.
 - Rig/app changes (new AUv3, remapped knob, new Loopy Pro layout) get their own branch + PR with a written justification. If you can't justify it in 3 sentences, it goes to the parking lot instead.
-- **Merging a PR = milestone shipped.** The PR review (by you + Claude) checks the Definition of Done, listens to the attached take, and captures lessons learned.
+- **Merging a PR ships one increment.** The review (by you + Claude) checks that increment's scope, listens to any attached take, and captures lessons learned. A **phase** is done only when its milestone's Definition of Done is met — the final performance PR closes it.
 
 ### Practice journal
 
