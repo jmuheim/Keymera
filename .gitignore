@@ -1,0 +1,16 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Loopy Pro / audio scratch
+*.tmp
+scratch/
+**/audio/scratch/
+
+# Editors
+.vscode/
+.idea/
+
+# Big raw exports that should go through LFS or stay local
+*.aif
+*.aiff
