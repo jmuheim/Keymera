@@ -37,6 +37,17 @@ If any check fails, request changes with a short, kind, specific comment. Do not
 - **Scope creep detector:** if a PR touches `gear/RIG.md` *and* track files, ask me to split it — rig changes are reviewed separately.
 - Feel free to write small scripts (e.g. a pre-commit hook or CI check for naming conventions) — but only if I ask; tooling can itself become a rabbit hole.
 
+## Writing conventions (when Claude edits repo files)
+
+- **Blank line after every heading** — never let a heading sit directly on its content.
+- **"I"/"me" is the user only.** Write Claude's own work in third person ("the analysis confirmed…", "measured ~62 BPM"); never co-opt my first-person voice ("my ear").
+- **Strip stale scaffolding automatically.** Once a template hint has done its job (e.g. "fill in after my own guess"), remove it as part of the edit — don't ask.
+- **Status = emojis, not checkboxes** in PR descriptions: ✅ done · ⏳ not yet / later PR · ➖ n/a · ❌ only a genuine problem. A *real* to-do list I'm meant to tick off stays as checkboxes.
+
+## Repo & tooling notes
+
+- `main` is protected by a GitHub **ruleset** (not classic branch protection — the branch-protection API 404s). Small direct pushes go via the `push-to-main` skill, which toggles the ruleset off and back on.
+
 ## Audio analysis workflow (ear first, algorithm second)
 
 Claude can analyze uploaded audio with signal-processing code (librosa etc.): tempo, key, structure/waveform, spectral info. Chord detection is approximate (~70–80% on basic triads; ambient reverb-heavy guitar is hard) — treat as second opinion, never ground truth.
