@@ -23,7 +23,7 @@ Changes to the rig or app setup only happen via PR (see workflow below). This is
 
 | Phase | Goal | Definition of Done |
 |-------|------|--------------------|
-| 1 | Reproduce one Stringscapes-style song with stock Loopy Pro tools (guitar + voice only) | Played live, hands only, 3 clean runs in a row; recording committed |
+| 1 | Reproduce one Stringscapes-style song with stock Loopy Pro tools (guitar only) | Played live, hands only, 3 clean runs in a row; recording committed |
 | 2 | Arrangement control: unbuild/rebuild the same song with mutes, fades, groups | 5-minute version with a clear arc, no dead air |
 | 3 | MIDI layer: one drum kit + one keys instrument via Akai | Ambient piece that morphs into downbeat and back |
 | 4 | Journey set: chain 2–3 pieces with improvised transitions | 15+ min continuous set, recorded, self-reviewed |
