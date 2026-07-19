@@ -8,7 +8,7 @@ This repo treats the musical journey like a software project: phased milestones,
 
 **Long-term goal:** Perform ambient/downbeat live sets with improvised journeys — slow atmospheric parts building into punchier sections (tribal progressive trance, melodic techno) and back down. Full freedom to improvise; the audience goes on a ride with ups and downs.
 
-**Reference for phase 1:** Stringscapes-style western ambient — slow, sparse, repetitive layered guitar with atmosphere.
+**Reference for phase 1:** [Stringscapes](https://open.spotify.com/intl-de/artist/7AIgeYX38gGWqPh2h5SV30)-style western ambient — slow, sparse, repetitive layered guitar with atmosphere.
 
 ## Rig (frozen — see `gear/RIG.md`)
 
