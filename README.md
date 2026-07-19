@@ -84,7 +84,8 @@ After each session, add `journal/YYYY-MM-DD.md`:
 
 ### Issues as backlog
 
-- Every song idea, gear idea, or "I should learn X" becomes an **issue**, labeled: `song-idea`, `technique`, `gear`, `loopy-pro`, `phase-N`.
+- Song ideas, gear ideas, and "I should learn X" thoughts go to `ideas/PARKING_LOT.md` first — don't open an issue for every stray idea.
+- Promote a parked idea to an **issue** only when it's real, actionable work (labeled: `song-idea`, `technique`, `gear`, `loopy-pro`, `phase-N`).
 - Sprint = issues assigned to the current phase milestone. Everything else waits.
 
 ## Rules of the road
