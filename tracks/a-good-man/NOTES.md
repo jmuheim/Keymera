@@ -22,16 +22,19 @@
 
 | Tile | Content | Bars | Notes |
 |------|---------|------|-------|
-| 1 | | | |
-| 2 | | | |
-| 3 | | | |
-| 4 | | | |
+| 1 | Guitar bed — D → F → C → G, one strum per bar, let ring | 4 | ~62 BPM, standard tuning, thumb-wrapped F |
+| 2 | *(open — later layer)* | | |
+| 3 | *(open — later layer)* | | |
+| 4 | *(open — later layer)* | | |
 
 ## Takes
 
-See `audio/` — naming: YYYY-MM-DD_take-NN.m4a
+See `audio/` — naming: YYYY-MM-DD_take-NN.mp3
+
+- `2026-07-19_take-01.mp3` — first recorded loop: the 4-bar D–F–C–G guitar bed. Solid first pass.
 
 ## Lessons learned
 
 - Reproduction plan: **standard tuning** (Drop D parked — new technique), **relaxed slow tempo**, 4-bar **D–F–C–G** loop, one chord per bar. Goal is chords + atmosphere, not a 1:1 copy.
 - Ear beat the algorithm: chords, tonal center (D), and the detuned low D were all correctly heard before analysis. Only tempo was off (feels slower than it clocks).
+- Voicing choice (2026-07-19): **F played thumb-wrapped** (low-E fretted with the thumb, high E muted) gives a strong low-F root that fits the ambient bass. In standard tuning the **D chord's root sits higher** (open D string, ~D3) than F/C/G — exactly why the original used Drop D. Kept as a gentle "lift" home for now; Drop D stays parked.
