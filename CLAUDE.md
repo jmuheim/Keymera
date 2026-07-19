@@ -47,7 +47,7 @@ If any check fails, request changes with a short, kind, specific comment. Do not
 
 ## Repo & tooling notes
 
-- `main` is protected by a GitHub **ruleset** (not classic branch protection — the branch-protection API 404s). Small direct pushes go via the `push-to-main` skill, which toggles the ruleset off and back on.
+- `main` has **no branch protection** (the ruleset was removed 2026-07-19 — unnecessary ceremony for a one-man repo). Push directly to `main`; open a PR only when you want a reviewable increment. The `push-to-main` skill is obsolete.
 - **Durable preferences live in the repo, not Claude's memory.** The file-based memory is machine-local — never use it for anything I want to keep when switching computers. Coaching-behavior rules go in this file; project facts go in the relevant repo doc.
 
 ## Audio analysis workflow (ear first, algorithm second)
