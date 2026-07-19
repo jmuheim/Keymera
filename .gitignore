@@ -14,3 +14,4 @@ scratch/
 # Big raw exports that should go through LFS or stay local
 *.aif
 *.aiff
+.venv/
