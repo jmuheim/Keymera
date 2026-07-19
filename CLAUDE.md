@@ -48,6 +48,8 @@ If any check fails, request changes with a short, kind, specific comment. Do not
 ## Repo & tooling notes
 
 - `main` has **no branch protection** (the ruleset was removed 2026-07-19 — unnecessary ceremony for a one-man repo). Push directly to `main`; open a PR only when you want a reviewable increment. The `push-to-main` skill is obsolete.
+- **Keep PRs and issues in sync.** When a PR completes (or partly completes) an issue, put a closing keyword in the PR description — `Closes #N` for full completion, `Refs #N` when it only advances the issue. Merging then auto-closes the issue, so the tracker never drifts from reality. If work ships without a linked PR, close the issue by hand with a one-line pointer to what delivered it.
+- **I merge my own PRs on GitHub** — the merge click is a deliberate reward, don't take it from me. Claude may open, describe, and update PRs, but never runs `gh pr merge`. (Auto-close via closing keywords is fine — that fires from *my* merge, not yours.)
 - **Durable preferences live in the repo, not Claude's memory.** The file-based memory is machine-local — never use it for anything I want to keep when switching computers. Coaching-behavior rules go in this file; project facts go in the relevant repo doc.
 
 ## Audio analysis workflow (ear first, algorithm second)
