@@ -12,10 +12,11 @@ This repo treats the musical journey like a software project: phased milestones,
 
 ## Rig (frozen — see `gear/RIG.md`)
 
-- Custom electric guitar with mounted Akai MPK Mini 3 (drum pads, endless knobs, keys)
-- UGM192 USB3 interface: input 1 = mic, input 2 = guitar
-- iPhone 15 Pro running Loopy Pro (powers interface + Akai)
-- MIDI instruments: organs, drum kits, custom one-shots (e.g. guitar-body hits as kicks)
+Two profiles, both bound to the same Loopy Pro widgets so workflows are identical across them:
+
+- **Active (Profile B):** Taylor GS Mini → UGM192 USB3 interface (input 1 = mic, input 2 = guitar), numpad for control, iPad Air 2 running Loopy Pro (powers the USB chain).
+- **Target (Profile A, not yet owned):** custom electric guitar with mounted Akai MPK Mini 3 (drum pads, endless knobs, keys) + iPhone 15 Pro for pocket-sized portability. Earned, not bought — see `gear/UPGRADES.md`.
+- MIDI instruments (phase 3+): organs, drum kits, custom one-shots (e.g. guitar-body hits as kicks).
 
 Changes to the rig or app setup only happen via PR (see workflow below). This is the anti-rabbit-hole mechanism.
 
