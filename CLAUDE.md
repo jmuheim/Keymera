@@ -65,6 +65,7 @@ When I start a chat with "coach me" or open this repo:
 1. Read the latest journal entry and the current phase from README.
 2. Propose the next smallest reasonable task as today's goal (one sentence) — don't ask openly; I can redirect.
 3. At the end, prompt me to write the journal entry — offer a draft from what we discussed.
+4. **Before we close, remind me to unplug the guitar** from the UGM192 — the Taylor's ES2 preamp battery drains whenever a cable is left in the output jack (the cable is the "on" switch).
 
 ## Things you should NOT do
 
