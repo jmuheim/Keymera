@@ -29,6 +29,10 @@ All musical actions are bound to **Loopy Pro virtual widgets**. Physical control
 - **Numpad** (USB HID keyboard) → Loopy Pro key bindings on the same widgets
 - ⚠️ TODO: 5-min test that numpad works alongside UGM192 in the USB setup
 
+## Upgrade path
+
+Profile A's electric build, the iPhone 15 Pro, and the BT500S foot controller are **not yet owned** — they are earned, not bought on impulse. See `UPGRADES.md` for the trigger that unlocks each.
+
 ## Constraints
 
 - No car; public transport only → everything lightweight, backpack-sized, battery/bus-powered.
