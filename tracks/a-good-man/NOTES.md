@@ -23,7 +23,7 @@
 | Tile | Content | Bars | Notes |
 |------|---------|------|-------|
 | 1 | Guitar bed — D → F → C → G, one strum per bar, let ring | 4 | ~62 BPM, standard tuning, thumb-wrapped F |
-| 2 | Sparse lead line over the bed — played by ear, not tabbed | 4 | Reference: `2026-07-21_lead-over-bed.mp3` |
+| 2 | Lead line over the bed — played by ear, not tabbed | 4 | Reference: `2026-07-21_lead-over-bed.mp3` |
 | 3 | *(open — later layer)* | | |
 | 4 | *(open — later layer)* | | |
 
@@ -32,7 +32,7 @@
 See `audio/` — naming: YYYY-MM-DD_short-description.mp3
 
 - `2026-07-19_bed-loop-d-f-c-g.mp3` — first recorded loop: the 4-bar D–F–C–G guitar bed. Solid first pass.
-- `2026-07-19_lead-idea-sketch.mp3` — solo sketch of the lead line (2-bar phrase, no bed underneath).
+- `2026-07-19_lead-idea-sketch.mp3` — solo sketch of the lead line (4-bar phrase, no bed underneath).
 - `2026-07-21_lead-over-bed.mp3` — the lead recorded over the bed (issue #8 deliverable).
 
 ## Lessons learned
