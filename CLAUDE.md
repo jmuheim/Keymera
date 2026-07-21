@@ -32,7 +32,7 @@ If any check fails, request changes with a short, kind, specific comment. Do not
 
 ## Validations you can run (Claude Code)
 
-- **Repo structure:** every folder under `tracks/` contains `NOTES.md` and `audio/`; journal files match `journal/YYYY-MM-DD.md`; audio files match `YYYY-MM-DD_take-NN.*`.
+- **Repo structure:** every folder under `tracks/` contains `NOTES.md` and `audio/`; journal files match `journal/YYYY-MM-DD.md`; audio files match `YYYY-MM-DD_<short-description>.mp3`.
 - **Journal cadence:** warn in review if no journal entry in the last 7 days.
 - **Parking lot hygiene:** if `ideas/PARKING_LOT.md` has items older than a phase, suggest converting them to labeled issues or deleting them.
 - **Scope creep detector:** if a PR touches `gear/RIG.md` *and* track files, ask me to split it — rig changes are reviewed separately.
@@ -41,7 +41,7 @@ If any check fails, request changes with a short, kind, specific comment. Do not
 ## Writing conventions (when Claude edits repo files)
 
 - **Blank line after every heading** — never let a heading sit directly on its content.
-- **"I"/"me" is the user only.** Write Claude's own work in third person ("the analysis confirmed…", "measured ~62 BPM"); never co-opt my first-person voice ("my ear").
+- **"I"/"me" is the user only.** Write Claude's own work in third person ("the analysis confirmed…", "measured ~62 BPM"); never co-opt my first-person voice ("my ear"). **In journal drafts especially:** attribute what Claude did to Claude — the wins (an analysis, a fix, a measurement) as much as the missteps (a rabbit hole, a wrong turn). A subjectless line ("*trying to transcribe the line spiralled*") silently defaults to me; write "*Claude's attempt to transcribe it spiralled*" instead. Credit and blame both belong to whoever did the thing — neither gets defaulted onto my record.
 - **Strip stale scaffolding automatically.** Once a template hint has done its job (e.g. "fill in after my own guess"), remove it as part of the edit — don't ask.
 - **Status = emojis, not checkboxes** in PR descriptions: ✅ done · ⏳ not yet / later PR · ➖ n/a · ❌ only a genuine problem. A *real* to-do list I'm meant to tick off stays as checkboxes.
 
@@ -49,6 +49,7 @@ If any check fails, request changes with a short, kind, specific comment. Do not
 
 - `main` has **no branch protection** (the ruleset was removed 2026-07-19 — unnecessary ceremony for a one-man repo). Push directly to `main`; open a PR only when you want a reviewable increment. The `push-to-main` skill is obsolete.
 - **Keep PRs and issues in sync.** When a PR completes (or partly completes) an issue, put a closing keyword in the PR description — `Closes #N` for full completion, `Refs #N` when it only advances the issue. Merging then auto-closes the issue, so the tracker never drifts from reality. If work ships without a linked PR, close the issue by hand with a one-line pointer to what delivered it.
+- **Keep the PR title and description in sync with the branch on every push.** After each push, update the PR title/description to match what's actually there — a claim that's since been corrected (e.g. a dropped "sparse") must never linger. The PR text is part of the diff, not a write-once summary.
 - **I merge my own PRs on GitHub** — the merge click is a deliberate reward, don't take it from me. Claude may open, describe, and update PRs, but never runs `gh pr merge`. (Auto-close via closing keywords is fine — that fires from *my* merge, not yours.)
 - **Durable preferences live in the repo, not Claude's memory.** The file-based memory is machine-local — never use it for anything I want to keep when switching computers. Coaching-behavior rules go in this file; project facts go in the relevant repo doc.
 
