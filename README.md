@@ -43,7 +43,7 @@ Only the current phase is "in sprint." Everything else goes to the idea parking 
 ├── tracks/
 │   └── <track-name>/
 │       ├── NOTES.md       # Chords, structure, loop layout, tempo, lessons learned
-│       └── audio/         # Takes: YYYY-MM-DD_take-NN.mp3
+│       └── audio/         # Takes: YYYY-MM-DD_short-description.mp3
 ├── journal/
 │   └── YYYY-MM-DD.md      # Practice log entries
 ├── ideas/
@@ -80,7 +80,7 @@ After each session, add `journal/YYYY-MM-DD.md`:
 ### Audio
 
 - Commit short takes (< ~10 MB) directly; use **Git LFS** for longer recordings (`git lfs track "*.mp3" "*.wav"`).
-- Naming: `YYYY-MM-DD_take-NN.mp3` inside the track's `audio/` folder (mp3 for max cross-platform playback; export/transcode to ~192 kbps).
+- Naming: `YYYY-MM-DD_short-description.mp3` inside the track's `audio/` folder — a short kebab-case description of the take (e.g. `bed-loop-d-f-c-g`, `lead-over-bed`), not a take number. mp3 for max cross-platform playback; export/transcode to ~192 kbps.
 - Tag releases when a piece is performable: `git tag track/dusty-trails-v1`.
 
 ### Issues as backlog

@@ -32,7 +32,7 @@ If any check fails, request changes with a short, kind, specific comment. Do not
 
 ## Validations you can run (Claude Code)
 
-- **Repo structure:** every folder under `tracks/` contains `NOTES.md` and `audio/`; journal files match `journal/YYYY-MM-DD.md`; audio files match `YYYY-MM-DD_take-NN.*`.
+- **Repo structure:** every folder under `tracks/` contains `NOTES.md` and `audio/`; journal files match `journal/YYYY-MM-DD.md`; audio files match `YYYY-MM-DD_<short-description>.mp3`.
 - **Journal cadence:** warn in review if no journal entry in the last 7 days.
 - **Parking lot hygiene:** if `ideas/PARKING_LOT.md` has items older than a phase, suggest converting them to labeled issues or deleting them.
 - **Scope creep detector:** if a PR touches `gear/RIG.md` *and* track files, ask me to split it — rig changes are reviewed separately.
