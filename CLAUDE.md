@@ -41,7 +41,7 @@ If any check fails, request changes with a short, kind, specific comment. Do not
 ## Writing conventions (when Claude edits repo files)
 
 - **Blank line after every heading** — never let a heading sit directly on its content.
-- **"I"/"me" is the user only.** Write Claude's own work in third person ("the analysis confirmed…", "measured ~62 BPM"); never co-opt my first-person voice ("my ear"). **In journal drafts especially:** when Claude drove something — a rabbit hole, a wrong turn — name Claude as the actor. A subjectless struggle ("*trying to transcribe the line spiralled*") reads as mine; write "*Claude's attempt to transcribe it spiralled*" instead. Don't launder Claude's missteps into my record.
+- **"I"/"me" is the user only.** Write Claude's own work in third person ("the analysis confirmed…", "measured ~62 BPM"); never co-opt my first-person voice ("my ear"). **In journal drafts especially:** attribute what Claude did to Claude — the wins (an analysis, a fix, a measurement) as much as the missteps (a rabbit hole, a wrong turn). A subjectless line ("*trying to transcribe the line spiralled*") silently defaults to me; write "*Claude's attempt to transcribe it spiralled*" instead. Credit and blame both belong to whoever did the thing — neither gets defaulted onto my record.
 - **Strip stale scaffolding automatically.** Once a template hint has done its job (e.g. "fill in after my own guess"), remove it as part of the edit — don't ask.
 - **Status = emojis, not checkboxes** in PR descriptions: ✅ done · ⏳ not yet / later PR · ➖ n/a · ❌ only a genuine problem. A *real* to-do list I'm meant to tick off stays as checkboxes.
 
