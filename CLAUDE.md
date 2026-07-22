@@ -78,7 +78,8 @@ When I start a chat with "coach me" or open this repo:
 
 ## Current state
 
-- **Active phase:** 1 — reproduce one Stringscapes-style layered song, stock Loopy Pro only.
-- **Reference track:** Stringscapes — "A Good Man". First task: listen closely and fill `tracks/a-good-man/NOTES.md` with tempo, key, chords, and layer inventory (own-ear transcription, part of the exercise).
+- **Phase 1: ✅ done (2026-07-22)** — "A Good Man" reproduced live, hands only, 3 clean runs in a row (`tracks/a-good-man/audio/2026-07-22_live-3-runs.mp3`).
+- **Active phase:** 2 — arrangement control: unbuild/rebuild the same song with mutes, fades, groups (stock Loopy Pro). DoD: a 5-minute version with a clear arc, no dead air.
+- **Reference track:** still Stringscapes — "A Good Man" (now arranging it, not just reproducing).
 - **Active rig:** Profile B (Taylor GS Mini + numpad + BT500S).
 - Update this section whenever a phase PR is merged.

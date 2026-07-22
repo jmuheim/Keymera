@@ -34,9 +34,11 @@ See `audio/` — naming: YYYY-MM-DD_short-description.mp3
 - `2026-07-19_bed-loop-d-f-c-g.mp3` — first recorded loop: the 4-bar D–F–C–G guitar bed. Solid first pass.
 - `2026-07-19_lead-idea-sketch.mp3` — solo sketch of the lead line (4-bar phrase, no bed underneath).
 - `2026-07-21_lead-over-bed.mp3` — the lead recorded over the bed (issue #8 deliverable).
+- `2026-07-22_live-3-runs.mp3` — phase-1 performance: three clean live runs in a row, hands only (build bed → layer lead → cycle → mute-out). Closes Phase 1.
 
 ## Lessons learned
 
 - Reproduction plan: **standard tuning** (Drop D parked — new technique), **relaxed slow tempo**, 4-bar **D–F–C–G** loop, one chord per bar. Goal is chords + atmosphere, not a 1:1 copy.
 - Ear beat the algorithm: chords, tonal center (D), and the detuned low D were all correctly heard before analysis. Only tempo was off (feels slower than it clocks).
 - Voicing choice (2026-07-19): **F played thumb-wrapped** (low-E fretted with the thumb, high E muted) gives a strong low-F root that fits the ambient bass. In standard tuning the **D chord's root sits higher** (open D string, ~D3) than F/C/G — exactly why the original used Drop D. Kept as a gentle "lift" home for now; Drop D stays parked.
+- Live performance (2026-07-22): 3 clean runs in a row came **easier than expected** once both layers were in the hands — the reproduction is genuinely performable. Operational lesson: **arm recording before performing** — the first clean 3-in-a-row went uncaptured and had to be redone ("if it's not committed, it didn't happen").
