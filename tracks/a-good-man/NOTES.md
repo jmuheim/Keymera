@@ -27,6 +27,24 @@
 | 3 | *(open — later layer)* | | |
 | 4 | *(open — later layer)* | | |
 
+Tiles 3–4 stay open on purpose — see the arc below; the impro layers are played **live**, not looped.
+
+## Phase 2 — arrangement arc (v1)
+
+The unbuild/rebuild shape for the 5-minute version. Quiet moments sit at the **bookends** (framing, not dead air); energy comes from stacking up and stripping back. Impro is played **live**, so register can be adjusted on the fly.
+
+| # | State | Role |
+|---|-------|------|
+| 1 | bed | set the loop |
+| 2 | bed + lead | the theme |
+| 3 | bed + impro (lead muted) | new color |
+| 4 | bed + lead + impro | **peak** — fullest |
+| 5 | bed | resolve, thin out |
+
+Transitions use Loopy's **quantized mute** — arm it a few seconds early and it fires exactly on the loop boundary, so no manual timing is needed.
+
+**Lesson (2026-07-24 scratch pass):** the lead is already *dense* — there was no sonic room for the impro at the peak until it moved **up an octave**. Register separation opened the space, not volume. Guiding principle: **less is more** — each layer must leave breath for the next. (This masking shrinks later with distinct timbres — guitar FX, MIDI piano/organ/marimba — which separate by ear far more easily than two clean guitars in the same range.) The pass ran ~2:36 and **felt complete** — deliberately not padded toward a longer runtime, because stretching this sparse song would just feel longer, not better (added dead air, not added music). A genuinely richer/longer version waits for new *elements* — percussion, FX (swoosh, white noise) — not more repetitions of the same two layers.
+
 ## Takes
 
 See `audio/` — naming: YYYY-MM-DD_short-description.mp3
@@ -35,6 +53,7 @@ See `audio/` — naming: YYYY-MM-DD_short-description.mp3
 - `2026-07-19_lead-idea-sketch.mp3` — solo sketch of the lead line (4-bar phrase, no bed underneath).
 - `2026-07-21_lead-over-bed.mp3` — the lead recorded over the bed (issue #8 deliverable).
 - `2026-07-22_live-3-runs.mp3` — phase-1 performance: three clean live runs in a row, hands only (build bed → layer lead → cycle → mute-out). Closes Phase 1.
+- `2026-07-24_full-arc-scratch.mp3` — phase-2 arrangement arc, first full pass (~2:36): bed → +lead → bed+impro → peak → bed. Felt complete at this length; impro moved up an octave to sit above the dense lead.
 
 ## Lessons learned
 
